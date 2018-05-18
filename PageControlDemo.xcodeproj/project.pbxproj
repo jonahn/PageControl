@@ -15,7 +15,8 @@
 		26829EBB1E2758DB00BE2D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26829EB91E2758DB00BE2D34 /* LaunchScreen.storyboard */; };
 		26829EC61E2758DB00BE2D34 /* PageControlDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26829EC51E2758DB00BE2D34 /* PageControlDemoTests.m */; };
 		26829ED11E2758DB00BE2D34 /* PageControlDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26829ED01E2758DB00BE2D34 /* PageControlDemoUITests.m */; };
-		26829EE01E275DEA00BE2D34 /* LWDPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 26829EDF1E275DEA00BE2D34 /* LWDPageControl.m */; };
+		AB77DD0920AE7618009E03EC /* JNPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AB77DD0720AE7618009E03EC /* JNPageControl.m */; };
+		AB77DD0C20AE763A009E03EC /* LWDPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AB77DD0A20AE7639009E03EC /* LWDPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +53,10 @@
 		26829ECC1E2758DB00BE2D34 /* PageControlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageControlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26829ED01E2758DB00BE2D34 /* PageControlDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageControlDemoUITests.m; sourceTree = "<group>"; };
 		26829ED21E2758DB00BE2D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26829EDE1E275DEA00BE2D34 /* LWDPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LWDPageControl.h; path = "../../../../zwt_ios/hljzwt_v2/hljzwt/hljzwt/Src/Home(首页)/个人、法人、公共服务/ThemeCategory(主题分类)/View/LWDPageControl.h"; sourceTree = "<group>"; };
-		26829EDF1E275DEA00BE2D34 /* LWDPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LWDPageControl.m; path = "../../../../zwt_ios/hljzwt_v2/hljzwt/hljzwt/Src/Home(首页)/个人、法人、公共服务/ThemeCategory(主题分类)/View/LWDPageControl.m"; sourceTree = "<group>"; };
+		AB77DD0720AE7618009E03EC /* JNPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNPageControl.m; sourceTree = "<group>"; };
+		AB77DD0820AE7618009E03EC /* JNPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNPageControl.h; sourceTree = "<group>"; };
+		AB77DD0A20AE7639009E03EC /* LWDPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWDPageControl.m; sourceTree = "<group>"; };
+		AB77DD0B20AE7639009E03EC /* LWDPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWDPageControl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +107,14 @@
 		26829EAA1E2758DB00BE2D34 /* PageControlDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AB77DD0B20AE7639009E03EC /* LWDPageControl.h */,
+				AB77DD0A20AE7639009E03EC /* LWDPageControl.m */,
+				AB77DD0820AE7618009E03EC /* JNPageControl.h */,
+				AB77DD0720AE7618009E03EC /* JNPageControl.m */,
 				26829EAE1E2758DB00BE2D34 /* AppDelegate.h */,
 				26829EAF1E2758DB00BE2D34 /* AppDelegate.m */,
 				26829EB11E2758DB00BE2D34 /* ViewController.h */,
 				26829EB21E2758DB00BE2D34 /* ViewController.m */,
-				26829EDE1E275DEA00BE2D34 /* LWDPageControl.h */,
-				26829EDF1E275DEA00BE2D34 /* LWDPageControl.m */,
 				26829EB41E2758DB00BE2D34 /* Main.storyboard */,
 				26829EB71E2758DB00BE2D34 /* Assets.xcassets */,
 				26829EB91E2758DB00BE2D34 /* LaunchScreen.storyboard */,
@@ -278,10 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26829EE01E275DEA00BE2D34 /* LWDPageControl.m in Sources */,
 				26829EB31E2758DB00BE2D34 /* ViewController.m in Sources */,
 				26829EB01E2758DB00BE2D34 /* AppDelegate.m in Sources */,
 				26829EAD1E2758DB00BE2D34 /* main.m in Sources */,
+				AB77DD0920AE7618009E03EC /* JNPageControl.m in Sources */,
+				AB77DD0C20AE763A009E03EC /* LWDPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +519,7 @@
 				26829ED71E2758DB00BE2D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26829ED81E2758DB00BE2D34 /* Build configuration list for PBXNativeTarget "PageControlDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				26829EDA1E2758DB00BE2D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26829EDB1E2758DB00BE2D34 /* Build configuration list for PBXNativeTarget "PageControlDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +537,7 @@
 				26829EDD1E2758DB00BE2D34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
